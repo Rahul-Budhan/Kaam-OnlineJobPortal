@@ -38,7 +38,7 @@
 <body>
 <!-- navbar-->
 <header class="header" >
-<naxv class="navbar navbar-expand-lg" style="background-color: #829460;">
+<naxv class="navbar navbar-expand-lg" style="background-color: #000000;">
         <div class="container">
             <a href="/" class="navbar-brand">
                 <img src="../static/img/logo.png" alt="logo" class="d-none d-lg-block" style="height: 150px;">
@@ -145,23 +145,27 @@
     {% endif %}
     {% block content %} {% endblock %}
 </div>
-<footer class="footer">
-    <div class="footer__block">
+<footer class="footer" >
+    <div class="footer__block" style="background-color: black;">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-12 mb-5">
-                    <a href=""><h4 class="h5">About KAAM</h4></a> 
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis
-                        aliquet congue. </p>
+                <div  style="margin-bottom: 10px;">
+                    <a href=""><h4 class="h5">About KAAM</h4></a>
                 </div>
+                <p style="word-spacing: 2px;" > In today's environment, a person must have a job or a business in order to survive. Every individual needs to make money in the most convenient manner feasible.
+                    Our online job platform, KAAM, was born from this very notion.
+                    People try to find jobs by using applications that focus on their degrees, but we believe that a piece of paper cannot determine your potential, so we focus on life skills and talents, while keeping your accomplishments such as degrees and experiences in mind, to find the best match for the person and the job.
+How a startup looks for people with novel ideas, how an organic startup looks for gardeners and marketers are all examples of how businessmen want people who are eager to work for them. KAAM can sort through all of this.
+
+We intend to make KAAM the most adaptable job platform available.</p>
             </div>
         </div>
     </div>
-    <div class="footer__copyright">
-        <div class="container">
+    <div class="footer__copyright"style="background-color: whitesmoke;">
+        <div class="container" style="background-color: whitesmoke;">
             <div class="row">
                 <div class="col-md-6 text-md-left text-center">
-                    <p>&copy;KAAM 2022</p>
+                    <p  style="color: black; size: 30px;">&copy;<b>KAAM 2022</b></p>
                 </div>
             </div>
         </div>

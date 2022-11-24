@@ -77,8 +77,8 @@
             </div>
         </div>
     </section>
-    <section class="bg-light-gray">
-        <div class="container">
+    <section class="bg-light-gray" style="background-color: lightgrey;">
+        <div class="container" >
             <h3 class="heading">Featured jobs</h3>
             <div class="row featured align-items-stretch">
                 {% for job in jobs %}
@@ -91,7 +91,7 @@
                                     </div>
                                     <div class="bg"></div>
                                     <div class="logo">
-                                        <img src="{% static 'img/company-1.png' %}" alt="" style="max-width: 80px;">
+                                        <img src="{% static 'img/company.png' %}" alt="" style="max-width: 200px;">
                                     </div>
                                 </a>
                             </div>
@@ -115,9 +115,28 @@
             </div>
         </div>
     </section>
-    <section>
+    <section style="background-color: whitesmoke;">
         <div class="container">
-            <h4 class="heading">Trending this month</h4>
+            <h4 class="heading">Our Guide</h4>
+           <h3> Here’s our guide to the 5 types of work personalities in every business:
+            high achievers</h3>
+                
+                <p>Love them or hate them, high achievers are those talented, aspiring individuals whose main goal in life is to work hard, and get ahead. These are the persistent, single-minded (sometimes ruthless) people who strive for career success in every industry. Their top personality traits can be defined as: ambitious, innovative, flexible, energetic, natural born leaders …And a tendency to be ruthless  Roles you’ll find them in: Executives, General Managers, Politicians, Business Development, Entrepreneurs, high level job roles such as CEO’s. 
+                mr or ms dependable
+                
+                Often described as the most conscientious of all, these workers are known for playing by the rules, turning up on time every day, persevering with difficult tasks and making long detailed lists of things to do. Their top personality traits can be defined as: well organised, dependable, attention to detail, meticulous …And a little boring. Roles you’ll find them in: Accounting, Administration, Social Workers, Nurses, Office Managers, Police/Law Enforcement, Surveyors.
+                the social butterfly
+                
+                These bubbly, friendly personalities love to work as part of a team rather than by themselves, and actively take an interest in colleagues on a personal level. Often hyper-sensitive to the needs of others, they’re the person most likely to lend a shoulder to cry on if you’re having a rough day at work. Their top personality traits can be defined as: outgoing, democratic, sensitive, approachable …And the office gossip! Roles you’ll find them in: Actors, Account Managers, Marketing & Communications, Social Media, Public Relations, ITes and BPO jobs.
+                original thinkers
+                
+                
+                Workers in this category are known for their big picture ideas, insightful approach to problem solving, and imaginative concepts. Highly analytical, these people are the first to speak up during brain storming sessions and need to keep a pen handy at all times to draw diagrams to illustrate their point. Their top personality traits can be defined as: innovative, creative, visionary, quirky and ..a little nosy. Roles you’ll find them in: Scientists, Psychologists, Consultants, Inventors, Advertising Executives
+                Switzerland (aka the fence-sitters)
+                
+                Like their namesake country Switzerland, these people remain neutral at all odds and despite the bland insinuation, workers who fall in this category are essential for keeping the peace in every working environment. Though rarely chosen for recognition or reward, these fence-sitters are most likely to speak up about the limitations of projects and their presence often brings calm to any volatile situations. Their top personality traits can be defined as: calm, composed, diligent, trustworthy …And a total know-it-all. Roles you’ll find them in: CFOs, Treasurers, Auditing Professionals, Stock Brokers, computer programmers and developers.
+                
+                Obviously no one will ever completely to fit into any one category, but you're likely to find aspects of each type in any office. Which category do you fit into? Which personality do you think is the best to have in a work colleague, and which would you prefer to do without?</p>
             {% for trending in trendings %}
                 <div class="job-listing  job-listing--last">
                     <div class="row">
@@ -157,10 +176,10 @@
         </div>
     </section>
     <section style="background-image: url({% static 'img/startup.jpg' %}); " class="section-divider">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
+        <div class="overlay"style="background-color: grey;"></div>
+        <div class="container" >
+            <div class="row" >
+                <div class="col-lg-12 text-center" >
                     <p>Start searching for your new job now! </p>
                     <p><a href="{% url 'jobs:jobs' %}" class="btn btn-outline-light">See our job offers </a></p>
                 </div>
