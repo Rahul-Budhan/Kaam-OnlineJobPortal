@@ -2,7 +2,7 @@
 
 A job providing platform for all
 
-#Tech Stack
+Tech Stack
 HTML
 CSS
 Python
