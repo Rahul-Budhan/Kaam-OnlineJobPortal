@@ -1,26 +1,56 @@
-# Kaam
+### Kaam
+Kaam is an online job portal that provides job opportunities for people who are looking for work.
 
-A job providing platform for all who seek it.
+### Tech Stack
++ Python (version 3.10)
++ JavaScript
++ Django (version 2.1.7)
++ HTML
++ CSS
++ Pytz (version 2018.9)
++ Whitenoise (version 4.1.2)
++ Gunicorn
 
-## Installation
-
-```bash
-Install python 3.10
+### Installation
+To install Kaam, you will need to have Python 3.10 installed on your computer. You can download and install Python 3.10 from the official Python website:
+ ```
+https://www.python.org/downloads/
 ```
 
-then run the following commands
++ Once you have Python 3.10 installed, follow these steps:
+Clone the repository:
 
+```
+git clone https://github.com/your-username/kaam.git
+```
 
-```bash
++ Change into the project directory:
+
+```
+cd kaam
+```
++ Install the required Python packages using pip:
+
+```
 pip install -r requirements.txt
 ```
-followed by:
-```bash
+
+
+### Usage
+To use Kaam, follow these steps:
+
++ Start the development server:
+
+```
 python manage.py runserver
 ```
-## Usage
 
-```python
-Run the above code on the project directory and then open this url(http://127.0.0.1:8000/)
++ Open a web browser and navigate to the following URL:
+
 ```
+http://127.0.0.1:8000/
+```
++ Browse the job listings and apply for positions that interest you.
+
+
 
